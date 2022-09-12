@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "4.0.0-beta.0",
+    "@openzeppelin/test-helpers": "^0.5.11",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.1.4",
+    "hardhat": "^2.2.1"
+  },
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run --network hecoTestnet scripts/2_deploy_ifo.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
